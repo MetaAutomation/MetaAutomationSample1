@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Checks>
+  <Check>
+    <DataElement Name="DirectoryName" Value="Example_1_SimpleOneTierCheck" />
+    <DataElement Name="CurrentCheckRunArtifact" Value="CheckRunArtifact_Original.xml" />
+    <DataElement Name="Comment" Value="Sample 1: Simple one-tier check" />
+  </Check>
+  <!--Check>
+    <DataElement Name="DirectoryName" Value="Example_2_CheckOfWebPageBuiltToFailRandomly" />
+    <DataElement Name="CurrentCheckRunArtifact" Value="CheckRunArtifact_Original.xml" />
+    <DataElement Name="Comment" Value="Sample 2: Check of web page built to fail randomly" />
+  </Check-->
+</Checks>
