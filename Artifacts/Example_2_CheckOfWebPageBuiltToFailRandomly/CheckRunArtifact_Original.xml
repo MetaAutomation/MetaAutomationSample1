@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CheckRunArtifact>
+  <CheckRunData>
+    <DataElement Name="CheckJobSpecGuid" Value="00000000-0000-0000-0000-000000000000" />
+    <DataElement Name="CheckJobRunGuid" Value="00000000-0000-0000-0000-000000000000" />
+    <DataElement Name="CheckRunGuid" Value="4bc3e050-771c-47f4-a859-4dc24eb5c874" />
+    <DataElement Name="CheckMethodName" Value="FlakyPageCheck" />
+    <DataElement Name="CheckMethodGuid" Value="DE7F55D5-EA38-4821-9F7F-CF75F179C4AF" />
+    <DataElement Name="CheckBeginTime" Value="2016-11-29T18:51:18.4828651Z" />
+    <DataElement Name="CheckEndTime" Value="2016-11-29T18:51:18.7739136Z" />
+  </CheckRunData>
+  <CheckCustomData />
+  <CheckFailData>
+    <DataElement Name="page source" Value="&#xD;&#xA;&#xD;&#xA;&lt;!DOCTYPE html&gt;&#xD;&#xA;&#xD;&#xA;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&#xD;&#xA;&lt;head&gt;&lt;title&gt;&#xD;&#xA;&#xD;&#xA;&lt;/title&gt;&lt;/head&gt;&#xD;&#xA;&lt;body&gt;&#xD;&#xA;    &lt;div class=&quot;jumbotron&quot;&gt;&#xD;&#xA;        &lt;h1&gt;MetaAutomation&lt;/h1&gt;&#xD;&#xA;        &lt;p class=&quot;lead&quot;&gt;A Parn Language to build a bridge from product automation to decision makers.&lt;/p&gt;&#xD;&#xA;        &lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/body&gt;&#xD;&#xA;&lt;/html&gt;&#xD;&#xA;" />
+    <DataElement Name="ExceptionType" Value="MetaAutomationClientSpLibrary.CheckFailException" />
+    <DataElement Name="ExceptionMessage" Value="The search string 'Pattern Language' was not found on the page. Check for a screenshot and the 'page source' data element." />
+    <DataElement Name="StackTrace">
+      <DataElement Name="00" Value="at CheckMethods.Sample_2_CheckOfWebPageBuiltToFailRandomly.&lt;&gt;c__DisplayClass0_1.&lt;FlakyPageCheck&gt;b__4() in C:\Users\user\Obfuscated\Matt\MetaAutomation\Code\MetaAutomation\MetaAutomationSample1\CheckMethods\Sample_2_CheckOfWebPageBuiltToFailRandomly.cs:line 102" />
+      <DataElement Name="01" Value="at MetaAutomationClientSpLibrary.CheckStepRunner.DoStep(String stepName, Action stepCode) in C:\Users\user\Obfuscated\Matt\MetaAutomation\Code\MetaAutomation\MetaAutomationSample1\MetaAutomationClientSpLibrary\CheckStepRunner.cs:line 66" />
+      <DataElement Name="02" Value="at MetaAutomationClientSpLibrary.CheckMethodStepRecords.DoStep(String stepName, Action stepCode) in C:\Users\user\Obfuscated\Matt\MetaAutomation\Code\MetaAutomation\MetaAutomationSample1\MetaAutomationClientSpLibrary\CheckMethodStepRecords.cs:line 55" />
+      <DataElement Name="03" Value="at MetaAutomationClientSpLibrary.CheckRunArtifact.DoStep(String stepName, Action stepCode) in C:\Users\user\Obfuscated\Matt\MetaAutomation\Code\MetaAutomation\MetaAutomationSample1\MetaAutomationClientSpLibrary\CheckRunArtifact.cs:line 87" />
+      <DataElement Name="04" Value="at MetaAutomationClientSpLibrary.CheckArtifact.DoStep(String stepName, Action stepCode) in C:\Users\user\Obfuscated\Matt\MetaAutomation\Code\MetaAutomation\MetaAutomationSample1\MetaAutomationClientSpLibrary\CheckArtifact.cs:line 36" />
+      <DataElement Name="05" Value="at MetaAutomationClientSpLibrary.Check.Step(String stepName, Action stepCode) in C:\Users\user\Obfuscated\Matt\MetaAutomation\Code\MetaAutomation\MetaAutomationSample1\MetaAutomationClientSpLibrary\Check.cs:line 36" />
+      <DataElement Name="06" Value="at CheckMethods.Sample_2_CheckOfWebPageBuiltToFailRandomly.FlakyPageCheck() in C:\Users\user\Obfuscated\Matt\MetaAutomation\Code\MetaAutomation\MetaAutomationSample1\CheckMethods\Sample_2_CheckOfWebPageBuiltToFailRandomly.cs:line 94" />
+    </DataElement>
+  </CheckFailData>
+  <CompleteCheckStepInfo>
+    <CheckStep Name="Method FlakyPageCheck" msTimeLimit="20000" Value="Fail" msTimeElapsed="285">
+      <CheckStep Name="Get the basic web page" msTimeLimit="18000" msTimeElapsed="187" Value="Pass">
+        <CheckStep Name="Make a HttpWebRequest" msTimeLimit="200" msTimeElapsed="21" Value="Pass" />
+        <CheckStep Name="Get the HttpWebResponse" msTimeLimit="15000" msTimeElapsed="160" Value="Pass">
+          <DataElement Name="HttpStatusCode" Value="OK" />
+        </CheckStep>
+        <CheckStep Name="Read the text of the page" msTimeLimit="2000" msTimeElapsed="0" Value="Pass" />
+      </CheckStep>
+      <CheckStep Name="Target verification step" msTimeLimit="2000" msTimeElapsed="73" Value="Fail" />
+    </CheckStep>
+  </CompleteCheckStepInfo>
+</CheckRunArtifact>
