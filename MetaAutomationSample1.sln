@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckLauncher", "CheckLauncher\CheckLauncher.csproj", "{486BAB2D-6DB3-4229-98F6-BC622D6F6BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaAutomationClientSpLibrary", "MetaAutomationClientSpLibrary\MetaAutomationClientSpLibrary.csproj", "{9EC30589-47EB-4F54-89E7-924917BD5260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaAutomationBaseSpLibrary", "MetaAutomationBaseSpLibrary\MetaAutomationBaseSpLibrary.csproj", "{44D03555-74FA-4A64-B42C-4A98EE0E9FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaAutomationClientSp", "MetaAutomationClientSp\MetaAutomationClientSp.csproj", "{BE5E1FB1-E707-42F9-8BAC-4E39424EA51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaAutomationLauncherSpLibrary", "MetaAutomationLauncherSpLibrary\MetaAutomationLauncherSpLibrary.csproj", "{B2A69F95-838A-4EF2-BCA6-29727AAF9086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckMethods", "CheckMethods\CheckMethods.csproj", "{0CBB95E2-8BF0-4D69-AAFB-B67C843EC829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artifacts", "Artifacts", "{612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}"
+	ProjectSection(SolutionItems) = preProject
+		Artifacts\CheckMap.xml = Artifacts\CheckMap.xml
+		Artifacts\CheckRunArtifact_Tutorial.xml = Artifacts\CheckRunArtifact_Tutorial.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReferenceDocuments", "ReferenceDocuments", "{0C1F096A-728D-4475-B6DA-E8657BDF010A}"
+	ProjectSection(SolutionItems) = preProject
+		ReferenceDocuments\CheckRunArtifact.xsl = ReferenceDocuments\CheckRunArtifact.xsl
+		ReferenceDocuments\NotesOnXsltStylesheet.txt = ReferenceDocuments\NotesOnXsltStylesheet.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example_1_SimpleOneTierCheck", "Example_1_SimpleOneTierCheck", "{1595E1BE-5283-4C8A-9FD3-F13241B40778}"
+	ProjectSection(SolutionItems) = preProject
+		Artifacts\Example_1_SimpleOneTierCheck\CheckRunArtifact_Original.xml = Artifacts\Example_1_SimpleOneTierCheck\CheckRunArtifact_Original.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example_2_CheckOfWebPageBuiltToFailRandomly", "Example_2_CheckOfWebPageBuiltToFailRandomly", "{255B4842-5719-496C-9D8A-24CBA8D21E79}"
+	ProjectSection(SolutionItems) = preProject
+		Artifacts\Example_2_CheckOfWebPageBuiltToFailRandomly\CheckRunArtifact_Original.xml = Artifacts\Example_2_CheckOfWebPageBuiltToFailRandomly\CheckRunArtifact_Original.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6CC4BC39-66E6-4723-BFD0-D80891D0CFDD}"
+	ProjectSection(SolutionItems) = preProject
+		MetaAutomation Sample1 Installation Instructions.docx = MetaAutomation Sample1 Installation Instructions.docx
+		Sample1 Tutorial.docx = Sample1 Tutorial.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = This sample runs in a single process
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{486BAB2D-6DB3-4229-98F6-BC622D6F6BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486BAB2D-6DB3-4229-98F6-BC622D6F6BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486BAB2D-6DB3-4229-98F6-BC622D6F6BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486BAB2D-6DB3-4229-98F6-BC622D6F6BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC30589-47EB-4F54-89E7-924917BD5260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC30589-47EB-4F54-89E7-924917BD5260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC30589-47EB-4F54-89E7-924917BD5260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC30589-47EB-4F54-89E7-924917BD5260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D03555-74FA-4A64-B42C-4A98EE0E9FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D03555-74FA-4A64-B42C-4A98EE0E9FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D03555-74FA-4A64-B42C-4A98EE0E9FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D03555-74FA-4A64-B42C-4A98EE0E9FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5E1FB1-E707-42F9-8BAC-4E39424EA51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5E1FB1-E707-42F9-8BAC-4E39424EA51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5E1FB1-E707-42F9-8BAC-4E39424EA51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5E1FB1-E707-42F9-8BAC-4E39424EA51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A69F95-838A-4EF2-BCA6-29727AAF9086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A69F95-838A-4EF2-BCA6-29727AAF9086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A69F95-838A-4EF2-BCA6-29727AAF9086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A69F95-838A-4EF2-BCA6-29727AAF9086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBB95E2-8BF0-4D69-AAFB-B67C843EC829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBB95E2-8BF0-4D69-AAFB-B67C843EC829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBB95E2-8BF0-4D69-AAFB-B67C843EC829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBB95E2-8BF0-4D69-AAFB-B67C843EC829}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1595E1BE-5283-4C8A-9FD3-F13241B40778} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
+		{255B4842-5719-496C-9D8A-24CBA8D21E79} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
+	EndGlobalSection
+EndGlobal
