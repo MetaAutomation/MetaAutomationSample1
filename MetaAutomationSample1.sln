@@ -40,6 +40,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6CC4BC39-66E6-4723-BFD0-D80891D0CFDD}"
 	ProjectSection(SolutionItems) = preProject
 		MetaAutomation Sample1 Installation Instructions.docx = MetaAutomation Sample1 Installation Instructions.docx
+		ReadMe.txt = ReadMe.txt
 		Sample1 Tutorial.docx = Sample1 Tutorial.docx
 	EndProjectSection
 EndProject
