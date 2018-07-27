@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckLauncher", "CheckLauncher\CheckLauncher.csproj", "{486BAB2D-6DB3-4229-98F6-BC622D6F6BB6}"
 EndProject
@@ -39,9 +39,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example_2_CheckOfWebPageBui
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6CC4BC39-66E6-4723-BFD0-D80891D0CFDD}"
 	ProjectSection(SolutionItems) = preProject
-		MetaAutomation Sample1 Installation Instructions.docx = MetaAutomation Sample1 Installation Instructions.docx
+		MetaAutomation Sample1 Installation Instructions.html = MetaAutomation Sample1 Installation Instructions.html
 		ReadMe.txt = ReadMe.txt
-		Sample1 Tutorial.docx = Sample1 Tutorial.docx
+		Sample1 Tutorial.html = Sample1 Tutorial.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{50CDFAF9-EC7C-4D09-A91C-DFF1C27C2F78}"
+	ProjectSection(SolutionItems) = preProject
+		files\image001.jpg = files\image001.jpg
 	EndProjectSection
 EndProject
 Global
@@ -82,5 +87,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1595E1BE-5283-4C8A-9FD3-F13241B40778} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
 		{255B4842-5719-496C-9D8A-24CBA8D21E79} = {612BC0A0-9B42-4C1B-B3D7-6DABD2C1FA24}
+		{50CDFAF9-EC7C-4D09-A91C-DFF1C27C2F78} = {6CC4BC39-66E6-4723-BFD0-D80891D0CFDD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABE159D4-07C9-4A5C-8066-7687D7A0FE57}
 	EndGlobalSection
 EndGlobal
