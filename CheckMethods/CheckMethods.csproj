@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Example_3_NegativeTestCase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Example_1_SimpleOneTierCheck.cs" />
     <Compile Include="Example_2_CheckOfWebPageBuiltToFailRandomly.cs" />

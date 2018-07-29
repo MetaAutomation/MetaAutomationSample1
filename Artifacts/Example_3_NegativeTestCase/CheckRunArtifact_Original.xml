@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CheckRunArtifact>
+  <CheckRunData>
+    <DataElement Name="CheckJobSpecGuid" Value="00000000-0000-0000-0000-000000000000" />
+    <DataElement Name="CheckJobRunGuid" Value="00000000-0000-0000-0000-000000000000" />
+    <DataElement Name="CheckRunGuid" Value="b7a34bdf-2bd0-4e73-a4a0-762bf86432ed" />
+    <DataElement Name="CheckMethodName" Value="ExampleNegativeTestCase" />
+    <DataElement Name="CheckMethodGuid" Value="29DB9DEC-7A3E-4723-A97E-884EE8888D13" />
+    <DataElement Name="CheckBeginTime" Value="2015-12-15T22:18:31.5551054Z" />
+    <DataElement Name="CheckEndTime" Value="2015-12-15T22:18:31.7020476Z" />
+  </CheckRunData>
+  <CheckCustomData />
+  <CheckFailData />
+  <CompleteCheckStepInfo>
+  </CompleteCheckStepInfo>
+</CheckRunArtifact>
