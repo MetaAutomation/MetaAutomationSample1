@@ -27,7 +27,7 @@ namespace CheckMethods
                     Check.SetCustomDataCheckStep("divisor", divisor.ToString());
                 });
 
-                Check.Step("Verify the expected failure", delegate
+                Check.Step("Measure and verify the expected failure", delegate
                 {
                     bool expectedFailure = false;
 
